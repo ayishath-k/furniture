@@ -1,0 +1,193 @@
+*{
+   
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* global storing of botton theme */
+:root{
+    --x:rgb(114, 6, 6)
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+    /* margin: 0px 20px; */
+}
+li i{
+    color: rgb(193, 191, 191);
+}
+#button{
+    background-color: var(--x);
+    color: white;
+}
+#button:hover{
+    background-color: white;
+    border-color: var(--x);
+    color: var(--x);
+}
+
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+
+#main{
+    background-image: url(./images/BACKGROUND.webp);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#b1{
+    width: 100%;
+    height: 120vh;
+    background-color:rgba(0,0,0,0.32);
+}
+#welcome{
+    padding-top: 18%;
+    padding-left: 5%;
+
+}
+#welcome h4{
+    color: white;
+    font-size: 30px;
+}
+
+#welcome h1{
+    color: white;
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+
+}
+#work{
+    margin-top: 10%;
+    background-image: url(https://media.istockphoto.com/id/1322376077/photo/abstract-white-studio-background-for-product-presentation-empty-room-with-shadows-of-window.webp?b=1&s=612x612&w=0&k=20&c=ocB4cN3X-udri8foZPzHog-0lUO7IKPk_OAB3d9qv0o=);
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div .viewbtn{
+    border-color: var(--x);
+    color: var(--x);
+}
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: white;
+    padding: 10% 0px;
+}
+#hr{
+    height: 0.4rem;
+    width: 10rem;
+    background-color: var(--x);
+}
+#about h1{
+    color: var(--x);
+}
+
+#about p{
+    text-align: justify;
+}
+
+#abimg{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 7%;
+}
+
+.projgdiv1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.projgdiv1 img{
+    position: absolute;
+    height: 100%;
+}
+
+.projgdiv2{
+    width: 55%;
+    height: 10%;
+    background-color:  rgba(0, 0, 0, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.projgdiv3{
+    width: 55%;
+    height: 10%;
+    background-color:  rgba(0, 0, 0, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    bottom: 0px;
+    position: absolute;}
+
+.project_gallery_div1{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.project_gallery_div1 img{
+
+    position: absolute;
+    height: 100%;
+}
+
+
+.project_gallery_div2{
+    width: 55%;
+    height: 10%;
+    background-color:  rgba(0, 0, 0, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.project_gallery_div3{
+    width: 70%;
+    height: 27%;
+    background-color: rgba(0, 0, 0, 0.688);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    bottom: 0px;
+    position: absolute;}
+
+    
+
+
+    
